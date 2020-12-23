@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"leddemo1\startup_stm32f103xe.o"
+"leddemo1\main.o"
+"leddemo1\gpio.o"
+"leddemo1\stm32f1xx_it.o"
+"leddemo1\stm32f1xx_hal_msp.o"
+"leddemo1\stm32f1xx_hal_gpio_ex.o"
+"leddemo1\stm32f1xx_hal_tim.o"
+"leddemo1\stm32f1xx_hal_tim_ex.o"
+"leddemo1\stm32f1xx_hal.o"
+"leddemo1\stm32f1xx_hal_rcc.o"
+"leddemo1\stm32f1xx_hal_rcc_ex.o"
+"leddemo1\stm32f1xx_hal_gpio.o"
+"leddemo1\stm32f1xx_hal_dma.o"
+"leddemo1\stm32f1xx_hal_cortex.o"
+"leddemo1\stm32f1xx_hal_pwr.o"
+"leddemo1\stm32f1xx_hal_flash.o"
+"leddemo1\stm32f1xx_hal_flash_ex.o"
+"leddemo1\stm32f1xx_hal_exti.o"
+"leddemo1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "LEDdemo1\LEDdemo1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LEDdemo1.map" -o LEDdemo1\LEDdemo1.axf

@@ -1,0 +1,1 @@
+ss_h743_2_adc3\startup_stm32h743xx.o: startup_stm32h743xx.s

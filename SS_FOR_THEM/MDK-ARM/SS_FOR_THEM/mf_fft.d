@@ -1,0 +1,11 @@
+ss_for_them\mf_fft.o: ..\Src\MF_FFT.c
+ss_for_them\mf_fft.o: ../Inc/MF_FFT.h
+ss_for_them\mf_fft.o: ..\Drivers\CMSIS\DSP\Include\arm_math.h
+ss_for_them\mf_fft.o: ../Drivers/CMSIS/Include/core_cm4.h
+ss_for_them\mf_fft.o: D:\KEIL_FOR_32\ARM\ARMCC\Bin\..\include\stdint.h
+ss_for_them\mf_fft.o: ../Drivers/CMSIS/Include/cmsis_version.h
+ss_for_them\mf_fft.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+ss_for_them\mf_fft.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+ss_for_them\mf_fft.o: D:\KEIL_FOR_32\ARM\ARMCC\Bin\..\include\string.h
+ss_for_them\mf_fft.o: D:\KEIL_FOR_32\ARM\ARMCC\Bin\..\include\math.h
+ss_for_them\mf_fft.o: D:\KEIL_FOR_32\ARM\ARMCC\Bin\..\include\stdio.h

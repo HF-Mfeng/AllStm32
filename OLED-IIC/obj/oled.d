@@ -1,0 +1,16 @@
+..\obj\oled.o: OLED.c
+..\obj\oled.o: D:\KEIL_FOR_32\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h
+..\obj\oled.o: D:\32_project\OLED-IIC\Src\RTE\RTE_Components.h
+..\obj\oled.o: ../Drivers/CMSIS/Include/core_cm3.h
+..\obj\oled.o: D:\KEIL_FOR_32\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\oled.o: ../Drivers/CMSIS/Include/cmsis_version.h
+..\obj\oled.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+..\obj\oled.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+..\obj\oled.o: D:\KEIL_FOR_32\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h
+..\obj\oled.o: ../Inc/OLED.h
+..\obj\oled.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+..\obj\oled.o: ../Inc/stm32f1xx_hal_conf.h
+..\obj\oled.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+..\obj\oled.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+..\obj\oled.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+..\obj\oled.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h

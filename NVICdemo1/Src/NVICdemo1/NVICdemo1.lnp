@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"nvicdemo1\startup_stm32f103xe.o"
+"nvicdemo1\main.o"
+"nvicdemo1\gpio.o"
+"nvicdemo1\stm32f1xx_it.o"
+"nvicdemo1\stm32f1xx_hal_msp.o"
+"nvicdemo1\stm32f1xx_hal_gpio_ex.o"
+"nvicdemo1\stm32f1xx_hal_tim.o"
+"nvicdemo1\stm32f1xx_hal_tim_ex.o"
+"nvicdemo1\stm32f1xx_hal.o"
+"nvicdemo1\stm32f1xx_hal_rcc.o"
+"nvicdemo1\stm32f1xx_hal_rcc_ex.o"
+"nvicdemo1\stm32f1xx_hal_gpio.o"
+"nvicdemo1\stm32f1xx_hal_dma.o"
+"nvicdemo1\stm32f1xx_hal_cortex.o"
+"nvicdemo1\stm32f1xx_hal_pwr.o"
+"nvicdemo1\stm32f1xx_hal_flash.o"
+"nvicdemo1\stm32f1xx_hal_flash_ex.o"
+"nvicdemo1\stm32f1xx_hal_exti.o"
+"nvicdemo1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "NVICdemo1\NVICdemo1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NVICdemo1.map" -o NVICdemo1\NVICdemo1.axf

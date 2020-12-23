@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"breathleddemo\startup_stm32f103xe.o"
+"breathleddemo\main.o"
+"breathleddemo\gpio.o"
+"breathleddemo\tim.o"
+"breathleddemo\stm32f1xx_it.o"
+"breathleddemo\stm32f1xx_hal_msp.o"
+"breathleddemo\stm32f1xx_hal_gpio_ex.o"
+"breathleddemo\stm32f1xx_hal_tim.o"
+"breathleddemo\stm32f1xx_hal_tim_ex.o"
+"breathleddemo\stm32f1xx_hal.o"
+"breathleddemo\stm32f1xx_hal_rcc.o"
+"breathleddemo\stm32f1xx_hal_rcc_ex.o"
+"breathleddemo\stm32f1xx_hal_gpio.o"
+"breathleddemo\stm32f1xx_hal_dma.o"
+"breathleddemo\stm32f1xx_hal_cortex.o"
+"breathleddemo\stm32f1xx_hal_pwr.o"
+"breathleddemo\stm32f1xx_hal_flash.o"
+"breathleddemo\stm32f1xx_hal_flash_ex.o"
+"breathleddemo\stm32f1xx_hal_exti.o"
+"breathleddemo\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "BreathLEDdemo\BreathLEDdemo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BreathLEDdemo.map" -o BreathLEDdemo\BreathLEDdemo.axf

@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"..\obj\startup_stm32f407xx.o"
+"..\obj\main.o"
+"..\obj\gpio.o"
+"..\obj\usart.o"
+"..\obj\stm32f4xx_it.o"
+"..\obj\stm32f4xx_hal_msp.o"
+"..\obj\stm32f4xx_hal_tim.o"
+"..\obj\stm32f4xx_hal_tim_ex.o"
+"..\obj\stm32f4xx_hal_usart.o"
+"..\obj\stm32f4xx_hal_rcc.o"
+"..\obj\stm32f4xx_hal_rcc_ex.o"
+"..\obj\stm32f4xx_hal_flash.o"
+"..\obj\stm32f4xx_hal_flash_ex.o"
+"..\obj\stm32f4xx_hal_flash_ramfunc.o"
+"..\obj\stm32f4xx_hal_gpio.o"
+"..\obj\stm32f4xx_hal_dma_ex.o"
+"..\obj\stm32f4xx_hal_dma.o"
+"..\obj\stm32f4xx_hal_pwr.o"
+"..\obj\stm32f4xx_hal_pwr_ex.o"
+"..\obj\stm32f4xx_hal_cortex.o"
+"..\obj\stm32f4xx_hal.o"
+"..\obj\stm32f4xx_hal_exti.o"
+"..\obj\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "..\obj\stm32f4.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "stm32f4.map" -o ..\obj\stm32f4.axf

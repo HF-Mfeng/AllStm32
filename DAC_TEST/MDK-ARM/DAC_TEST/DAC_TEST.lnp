@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"dac_test\startup_stm32f103xe.o"
+"dac_test\main.o"
+"dac_test\gpio.o"
+"dac_test\dac.o"
+"dac_test\stm32f1xx_it.o"
+"dac_test\stm32f1xx_hal_msp.o"
+"dac_test\stm32f1xx_hal_gpio_ex.o"
+"dac_test\stm32f1xx_hal_dac.o"
+"dac_test\stm32f1xx_hal_dac_ex.o"
+"dac_test\stm32f1xx_hal.o"
+"dac_test\stm32f1xx_hal_rcc.o"
+"dac_test\stm32f1xx_hal_rcc_ex.o"
+"dac_test\stm32f1xx_hal_gpio.o"
+"dac_test\stm32f1xx_hal_dma.o"
+"dac_test\stm32f1xx_hal_cortex.o"
+"dac_test\stm32f1xx_hal_pwr.o"
+"dac_test\stm32f1xx_hal_flash.o"
+"dac_test\stm32f1xx_hal_flash_ex.o"
+"dac_test\stm32f1xx_hal_exti.o"
+"dac_test\stm32f1xx_hal_tim.o"
+"dac_test\stm32f1xx_hal_tim_ex.o"
+"dac_test\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "DAC_TEST\DAC_TEST.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "DAC_TEST.map" -o DAC_TEST\DAC_TEST.axf

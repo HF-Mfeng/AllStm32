@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"huanpeiproject\startup_stm32f103xe.o"
+"huanpeiproject\main.o"
+"huanpeiproject\gpio.o"
+"huanpeiproject\tim.o"
+"huanpeiproject\usart.o"
+"huanpeiproject\stm32f1xx_it.o"
+"huanpeiproject\stm32f1xx_hal_msp.o"
+"huanpeiproject\stm32f1xx_hal_gpio_ex.o"
+"huanpeiproject\stm32f1xx_hal_tim.o"
+"huanpeiproject\stm32f1xx_hal_tim_ex.o"
+"huanpeiproject\stm32f1xx_hal.o"
+"huanpeiproject\stm32f1xx_hal_rcc.o"
+"huanpeiproject\stm32f1xx_hal_rcc_ex.o"
+"huanpeiproject\stm32f1xx_hal_gpio.o"
+"huanpeiproject\stm32f1xx_hal_dma.o"
+"huanpeiproject\stm32f1xx_hal_cortex.o"
+"huanpeiproject\stm32f1xx_hal_pwr.o"
+"huanpeiproject\stm32f1xx_hal_flash.o"
+"huanpeiproject\stm32f1xx_hal_flash_ex.o"
+"huanpeiproject\stm32f1xx_hal_exti.o"
+"huanpeiproject\stm32f1xx_hal_uart.o"
+"huanpeiproject\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "HuanPeiProject\HuanPeiProject.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "HuanPeiProject.map" -o HuanPeiProject\HuanPeiProject.axf

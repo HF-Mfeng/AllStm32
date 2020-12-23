@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"keydemo1\startup_stm32f103xe.o"
+"keydemo1\main.o"
+"keydemo1\gpio.o"
+"keydemo1\stm32f1xx_it.o"
+"keydemo1\stm32f1xx_hal_msp.o"
+"keydemo1\stm32f1xx_hal_gpio_ex.o"
+"keydemo1\stm32f1xx_hal_tim.o"
+"keydemo1\stm32f1xx_hal_tim_ex.o"
+"keydemo1\stm32f1xx_hal.o"
+"keydemo1\stm32f1xx_hal_rcc.o"
+"keydemo1\stm32f1xx_hal_rcc_ex.o"
+"keydemo1\stm32f1xx_hal_gpio.o"
+"keydemo1\stm32f1xx_hal_dma.o"
+"keydemo1\stm32f1xx_hal_cortex.o"
+"keydemo1\stm32f1xx_hal_pwr.o"
+"keydemo1\stm32f1xx_hal_flash.o"
+"keydemo1\stm32f1xx_hal_flash_ex.o"
+"keydemo1\stm32f1xx_hal_exti.o"
+"keydemo1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "KEYdemo1\KEYdemo1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "KEYdemo1.map" -o KEYdemo1\KEYdemo1.axf

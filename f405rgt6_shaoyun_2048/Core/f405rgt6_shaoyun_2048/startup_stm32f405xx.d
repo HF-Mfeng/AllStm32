@@ -1,0 +1,1 @@
+f405rgt6_shaoyun_2048\startup_stm32f405xx.o: startup_stm32f405xx.s

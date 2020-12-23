@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"communicationdemo1\startup_stm32f103xe.o"
+"communicationdemo1\main.o"
+"communicationdemo1\gpio.o"
+"communicationdemo1\usart.o"
+"communicationdemo1\stm32f1xx_it.o"
+"communicationdemo1\stm32f1xx_hal_msp.o"
+"communicationdemo1\stm32f1xx_hal_gpio_ex.o"
+"communicationdemo1\stm32f1xx_hal_tim.o"
+"communicationdemo1\stm32f1xx_hal_tim_ex.o"
+"communicationdemo1\stm32f1xx_hal_uart.o"
+"communicationdemo1\stm32f1xx_hal.o"
+"communicationdemo1\stm32f1xx_hal_rcc.o"
+"communicationdemo1\stm32f1xx_hal_rcc_ex.o"
+"communicationdemo1\stm32f1xx_hal_gpio.o"
+"communicationdemo1\stm32f1xx_hal_dma.o"
+"communicationdemo1\stm32f1xx_hal_cortex.o"
+"communicationdemo1\stm32f1xx_hal_pwr.o"
+"communicationdemo1\stm32f1xx_hal_flash.o"
+"communicationdemo1\stm32f1xx_hal_flash_ex.o"
+"communicationdemo1\stm32f1xx_hal_exti.o"
+"communicationdemo1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "CommunicationDemo1\CommunicationDemo1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CommunicationDemo1.map" -o CommunicationDemo1\CommunicationDemo1.axf
